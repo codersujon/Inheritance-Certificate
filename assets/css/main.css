@@ -1,0 +1,222 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: PencilBox Teacher Work
+    Template URI: https://pb-psd-1.netlify.app/
+    Description: Teacher Work
+    Author: CoderSujon
+    Author URI: www.codersujon.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+/* 1. Theme default css */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.img,
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  margin-top: 0px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: normal;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  color: #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.overline {
+  border-top: 2px solid #000;
+  display: inline-block;
+  right: 0;
+  margin: 20px 0;
+}
+
+/*--
+    - Margin & Padding
+-----------------------------------------*/
+/*-- Margin Top --*/
+.mt-5 {
+  margin-top: 5px;
+}
+
+/*-- Margin Bottom --*/
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+/*-- Margin Left --*/
+.ml-5 {
+  margin-left: 5px;
+}
+
+/*-- Margin Right --*/
+.mr-5 {
+  margin-right: 5px;
+}
+
+/*-- Padding Top --*/
+.pt-5 {
+  padding-top: 5px;
+}
+
+/*-- Padding Bottom --*/
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+/*-- Padding Left --*/
+.pl-5 {
+  padding-left: 5px;
+}
+
+/*-- Padding Right --*/
+.pr-5 {
+  padding-right: 5px;
+}
+
+/* Inher Start*/
+.inher__container {
+  width: 820px;
+  height: 1080px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  border: 20px solid black;
+  border-image-source: url("../img/border-image-1.png");
+  border-image-slice: 27;
+  border-image-repeat: round;
+}
+.inher__watermark {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  opacity: 20%;
+}
+.inher__watermark img {
+  max-width: 50%;
+}
+.inher__bish {
+  display: flex;
+  justify-content: space-between;
+}
+.inher__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inher__top__logo {
+  max-width: 17%;
+}
+.inher__top__content {
+  text-align: center;
+}
+.inher__top__content h2 {
+  font-size: 30px;
+  color: blue;
+}
+.inher__top__content h4 {
+  font-size: 20px;
+}
+.inher__content h2 {
+  font-size: 25px;
+}
+.inher__content table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000 !important;
+  font-size: 17px;
+}
+.inher__content table,
+.inher__content th,
+.inher__content td {
+  padding: 6px;
+}
+.inher__content th,
+.inher__content td {
+  border: 2px solid #000 !important;
+}
+.inher__bottom {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.inher__bottom p {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
